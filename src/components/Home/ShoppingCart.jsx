@@ -10,6 +10,7 @@ import {
   Input,
   Badge,
 } from "@nextui-org/react";
+import imgPhoto from "../../assets/img/imgShopping.png";
 
 import ProductShoppingCart from "../Home/ProductShoppingCart.jsx";
 
@@ -55,7 +56,7 @@ export default function   ShoppingCart({ data }) {
         content={data.length}
         color="primary"
       >
-        <Button onPress={onOpen}>Shopping</Button>
+        <Button className="w-10 bg-transparent" onPress={onOpen}><img width="100%" src={imgPhoto} alt="Photo" /></Button>
       </Badge>
 
       <Modal

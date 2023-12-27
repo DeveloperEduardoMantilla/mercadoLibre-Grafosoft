@@ -41,7 +41,7 @@ export default function Product({ productsSelect, data }) {
             className="text-white bg-green-600"
             radius="small"
           >
-            Add to Card
+            Add
           </Button>
         </div>
       </CardBody>
